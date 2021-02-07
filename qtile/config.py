@@ -79,13 +79,17 @@ keys = [
         lazy.spawn("flameshot gui"),
         desc="Take a screenshot of a desired region using Flameshot"
         ),
-    Key([mod, "shift"], "Print",
+    Key([mod, "control"], "Print",
         lazy.spawn("flameshot full -c"),
         desc="Take a screenshot of the entire screen using Flameshot"
         ),
+    Key([mod, "shift"], "Print",
+        lazy.spawn("flameshot full -c -p /home/pinwheel/Pictures/Screenshots"),
+        desc="Take a screenshot of the entire screen and save to Screenshots folder."
+        ),
 
     # WINDOW BINDS # ( First two are for MonadTall )
-    Key([mod, "shift"], "g",
+    Key([mod, "control"], "g",
         lazy.layout.grow(),
         lazy.layout.increase_nmaster(),
         desc='Expand window (MonadTall), increase number in master pane (Tile)'
@@ -103,7 +107,7 @@ keys = [
         lazy.layout.maximize(),
         desc='toggle window between minimum and maximum sizes'
         ),
-    Key([mod, "shift"], "f",
+    Key([mod, "control"], "f",
         lazy.window.toggle_floating(),
         desc='toggle floating'
         ),
