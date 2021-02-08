@@ -131,11 +131,11 @@ type = custom/menu
 expand-right = true
 
 menu-0-0 = Github
-menu-0-0-exec = firefox https://github.com
+menu-0-0-exec = firefox https://github.com && bspc desktop -f ^1
 menu-0-1 = Youtube
-menu-0-1-exec = firefox https://youtube.com
+menu-0-1-exec = firefox https://youtube.com && bspc desktop -f ^1
 menu-0-2 = Unixporn
-menu-0-2-exec = firefox https://reddit.com/r/unixporn
+menu-0-2-exec = firefox https://reddit.com/r/unixporn && bspc desktop -f ^1
 
 label-open = Frequented pages
 label-close = (Close this)
