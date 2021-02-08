@@ -29,7 +29,8 @@ alert = #8fbcbb
 ; =======================
 [bar/bspwm]
 wm-name = bspwm
-width = 97%
+; 97%
+width =  10%
 height = 30
 fixed-center = false
 bottom = false
@@ -56,12 +57,20 @@ font-0 = "UbuntuMono;size=12;3"
 ; font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
-modules-right = date
+; modules-right = date
 
 wm-restack = bspwm
 
 cursor-click = pointer
 cursor-scroll = ns-resize
+
+[bar/bspwm-2]
+width = 15%
+offset-x = 83.5%
+inherit = bar/bspwm
+modules-left = 
+modules-right = date
+
 
 [module/xwindow]
 type = internal/xwindow
