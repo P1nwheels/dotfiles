@@ -178,7 +178,7 @@ group_names = [("1", {'layout': 'monadtall'}),
                ("5", {'layout': 'monadtall'}),
                ("6", {'layout': 'monadtall'}),
                ("7", {'layout': 'monadtall'}),
-               ("8", {'layout': 'monadtall'})]
+               ("8", {'layout': 'floating'})]
 
 groups = [Group(name, **kwargs) for name, kwargs in group_names]
 
@@ -213,6 +213,7 @@ layouts = [
     # layout.TreeTab(**layout_theme),
     # layout.VerticalTile(**layout_theme),
     # layout.Zoomy(**layout_theme),
+    layout.Floating(**layout_theme),
 ]
 
 widget_defaults = dict(
@@ -241,8 +242,8 @@ def get_screens():
                     widget.Image(
                         background=colors['bg'],
                         margin=3,
-                        filename='~/Pictures/pythonico_muted.png',
-                        mouse_callbacks = {"Button1": lambda qtile: qtile.cmd_spawn("firefox http://docs.qtile.org/en/latest/index.html")}
+                        filename='~/Pictures/archicon.png',
+                        mouse_callbacks = {"Button1": lambda qtile: qtile.cmd_spawn("firefox https://youtube.com")}
                     ),
                     widget.GroupBox(
                         highlight_method="block",
@@ -270,6 +271,24 @@ def get_screens():
                         foreground=colors['ic'],
                         fontsize=15,
                     ),
+                    # widget.Sep(
+                    #     background=colors['bg'],
+                    #     foreground=colors['ic'],
+                    #     linewidth=3,
+                    #     padding=20
+                    # ),
+                    # widget.Image(
+                    #     background=colors['bg'],
+                    #     margin=3,
+                    #     filename='~/Pictures/notebook.png',
+                    #     mouse_callbacks = {"Button1": lambda qtile: qtile.cmd_spawn(f"notes.py")}
+                    # ),
+                    # widget.Sep(
+                    #     background=colors['bg'],
+                    #     foreground=colors['ic'],
+                    #     linewidth=3,
+                    #     padding=20
+                    # ),
                     widget.Systray(
                         background=colors['bg'],
                         padding=20,
