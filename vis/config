@@ -4,3 +4,5 @@ audio.stereo.enabled=false
 colors.scheme=main
 colors.override.terminal=true
 colors.override=true
+# top is another option for falloff
+visualizer.spectrum.falloff.mode=fill
