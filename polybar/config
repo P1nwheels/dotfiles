@@ -18,19 +18,23 @@
 
 [colors]
 ; Nord theme ============
-background = #282c34
-foreground = #abb2bf
-alert = #bd2c40
-volume-min = #a3be8c
-volume-med = #ebcb8b
-volume-max = #bf616a
+background = #2e3440
+background-alt = #81a1c1
+foreground = #bf616a
+foreground-alt = #81a1c1
+alert = #8fbcbb
+; volume-min = #a3be8c
+; volume-med = #ebcb8b
+; volume-max = #bf616a
 ; =======================
 [bar/bspwm]
 wm-name = bspwm
-width = 100%
+width = 97%
 height = 30
-fixed-center = true
+fixed-center = false
 bottom = false
+offset-x = 1.5%
+offset-y = 1.5%
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -38,36 +42,23 @@ foreground = ${colors.foreground}
 line-size = 0
 line-color = #f00
 
-border-size = 0
-border-color = #00000000
+border-size = 3
+border-color = #81a1c1
 
-padding-left = 0
-padding-right = 2
+padding-left = 3
+padding-right = 6
 
-module-margin-left = 6
-module-margin-right = 6
+module-margin-left = 4
+module-margin-right = 4
 
-font-0 = "Cantarell Regular;size=12;0"
+font-0 = "UbuntuMono;size=12;3"
 ; font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ; font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-right = date
 
-; tray-position = right
-; tray-padding = 2
-;tray-background = #0063ff
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;override-redirect = true
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
+wm-restack = bspwm
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -258,19 +249,20 @@ format-disconnected =
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 1
 
-date =
-date-alt = " %Y-%m-%d"
+date = "%B %d, %Y"
+date-alt = " %m-%d-%Y"
 
 time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
+format-foreground = ${colors.foreground}
 format-underline = #0a6cf5
 
-label = %time%
+label = "%date% |  %time%"
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -410,14 +402,10 @@ menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
-;pseudo-transparency = false
+format-underline = 
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+; margin-top = 5
+margin-bottom = 10
 
 ; vim:ft=dosini

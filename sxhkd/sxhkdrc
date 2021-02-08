@@ -15,6 +15,19 @@ super + Escape
 	pkill -USR1 -x sxhkd
 
 #
+# application hotkeys
+#
+
+super + Print
+    flameshot gui
+
+super + ctrl + Print
+    flameshot full -c
+
+super + shift + Print
+    flameshot full -c -p /home/pinwheel/Pictures/Screenshots
+
+#
 # bspwm hotkeys
 #
 
