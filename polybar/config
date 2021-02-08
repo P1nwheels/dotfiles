@@ -20,7 +20,7 @@
 ; Nord theme ============
 background = #2e3440
 background-alt = #81a1c1
-foreground = #bf616a
+foreground = #61cae8
 foreground-alt = #81a1c1
 alert = #8fbcbb
 ; volume-min = #a3be8c
@@ -71,6 +71,14 @@ inherit = bar/bspwm
 modules-left = 
 modules-right = date
 
+[bar/bspwm-3]
+width = 18%
+offset-x = 42.5%
+inherit = bar/bspwm
+modules-left = 
+modules-center = menu-freq
+modules-right = 
+
 [module/bspwm]
 type = internal/bspwm
 
@@ -109,6 +117,29 @@ format-foreground = ${colors.foreground}
 format-underline = #0a6cf5
 
 label = "%date% |  %time%"
+
+[module/network]
+type = internal/network
+interface = enp4s0
+interval = 10.0
+# "Up: %upspeed% | Down: %downspeed%"
+label-connected = "Connected. D: %downspeed% | U: %upspeed%"
+label-disconnected = "Shitternet shitting"
+
+[module/menu-freq]
+type = custom/menu
+expand-right = true
+
+menu-0-0 = Github
+menu-0-0-exec = firefox https://github.com
+menu-0-1 = Youtube
+menu-0-1-exec = firefox https://youtube.com
+menu-0-2 = Unixporn
+menu-0-2-exec = firefox https://reddit.com/r/unixporn
+
+label-open = Frequented pages
+label-close = (Close this)
+label-separator = " | "
 
 [settings]
 screenchange-reload = true
