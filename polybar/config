@@ -56,8 +56,7 @@ font-0 = "UbuntuMono;size=12;3"
 ; font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 ; font-2 = siji:pixelsize=10;1
 
-modules-left = bspwm
-; modules-right = date
+modules-center = bspwm
 
 wm-restack = bspwm
 
@@ -69,11 +68,12 @@ width = 15%
 offset-x = 83.5%
 inherit = bar/bspwm
 modules-left = 
+modules-center =
 modules-right = date
 
 [bar/bspwm-3]
 width = 18%
-offset-x = 42.5%
+offset-x = 41.5%
 inherit = bar/bspwm
 modules-left = 
 modules-center = menu-freq
