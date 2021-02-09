@@ -5,7 +5,6 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xrandr --output DP-2 --mode 1920x1080 --rate 144.00 &
 picom &
 feh --bg-fill --no-fehbg ~/Pictures/wallpapers/0306.jpg &
-$HOME/.config/polybar/launch.sh
 
 
 # Workspaces #
@@ -25,3 +24,6 @@ bspc config presel_feedback_color "#8fbcbb"
 # Rules #
 bspc rule -a discord desktop="^2" follow=on
 bspc rule -a firefox desktop="^1" follow=on
+
+
+$HOME/.config/polybar/launch.sh
