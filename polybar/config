@@ -17,12 +17,12 @@
 ;==========================================================
 
 [colors]
-; Nord theme ============
+; Not nord theme ============
 background = #202020
 background-alt = #ff8781
 foreground = #c10023
 foreground-alt = #ff8781
-alert = #ffffff
+alert = #ff5f5f
 ; volume-min = #a3be8c
 ; volume-med = #ebcb8b
 ; volume-max = #bf616a
