@@ -7,6 +7,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'chrisbra/colorizer'
 Plug 'arcticicestudio/nord-vim'
 Plug 'Kjwon15/vim-transparent'
+Plug 'rainglow/vim'
 
 call plug#end()
 
@@ -14,7 +15,7 @@ call plug#end()
 
 set termguicolors
 
-colorscheme nord
+colorscheme piggy-contrast
 " set background=dark
 
 syntax on
