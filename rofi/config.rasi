@@ -1,4 +1,4 @@
 configuration {
  modi: "window,drun,ssh,file-browser";
- theme: "nord";
+ theme: "my_theme";
  }
