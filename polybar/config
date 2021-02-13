@@ -18,11 +18,14 @@
 
 [colors]
 ; Not nord theme ============
-background = #202020
+background = #1e1e1e
+#303030
 background-alt = #ff8781
+#e93580
 foreground = #c10023
+#eb71a4
 foreground-alt = #ff8781
-alert = #ff5f5f
+alert = #ffffff
 ; volume-min = #a3be8c
 ; volume-med = #ebcb8b
 ; volume-max = #bf616a
@@ -44,6 +47,7 @@ line-size = 0
 line-color = #f00
 
 border-size = 3
+#9593f4
 border-color = #c10023
 
 padding-left = 3
