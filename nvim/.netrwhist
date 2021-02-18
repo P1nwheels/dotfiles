@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/pinwheel/.config/nvim'
 let g:netrw_dirhist_1='/home/pinwheel/My_Projects/char-exclude-pw-gen'
 let g:netrw_dirhist_0='/home/pinwheel/.config/vis/colors'
 let g:netrw_dirhist_9='/home/pinwheel/.config'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_6='/home/pinwheel'
 let g:netrw_dirhist_5='/home/pinwheel/Testing'
 let g:netrw_dirhist_4='/home/pinwheel/.config/bspwm'
 let g:netrw_dirhist_3='/home/pinwheel/.config'
-let g:netrw_dirhist_2='/home/pinwheel'

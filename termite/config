@@ -114,131 +114,91 @@ scrollback_lines = 10000
 #color14 = #8fbcbb
 #color15 = #eceff4
 
-# Count Von Count
+## Count Von Count
+#[colors]
+
+## special
+#foreground      = #919191
+#foreground_bold = #919191
+#cursor          = #919191
+##202020
+#background      = rgba(20, 20, 20, 0.90)
+
+## black
+#color0  = #303030
+#color8  = #5e5e5e
+
+## red
+#color1  = #c10023
+#color9  = #ff8781
+
+## green
+#color2  = #a83334
+#color10 = #ffa095
+
+## yellow
+#color3  = #b51d2c
+#color11 = #ff948b
+
+## blue
+#color4  = #8c4b46
+#color12 = #feb2aa
+
+## magenta
+#color5  = #7d534f
+#color13 = #ebbbb5
+
+## cyan
+#color6  = #9a413d
+#color14 = #ffaaa0
+
+## white
+#color7  = #c6c6c6
+#color15 = #ffffff
+
+
+# Visiblue
+
 [colors]
 
 # special
-foreground      = #919191
-foreground_bold = #919191
-cursor          = #919191
-#202020
-background      = rgba(20, 20, 20, 0.95)
+foreground      = #666699
+foreground_bold = #666699
+cursor          = #666699
+# #333333
+background      = rgba(33, 33, 33, 0.9)
 
 # black
-color0  = #303030
-color8  = #5e5e5e
+color0  = #5454ff
+color8  = #8484ff
 
 # red
-color1  = #c10023
-color9  = #ff8781
+color1  = #6666cc
+color9  = #9999ff
 
 # green
-color2  = #a83334
-color10 = #ffa095
+color2  = #0099cc
+color10 = #00ccff
 
 # yellow
-color3  = #b51d2c
-color11 = #ff948b
+color3  = #3366cc
+color11 = #6699ff
 
 # blue
-color4  = #8c4b46
-color12 = #feb2aa
+color4  = #006699
+color12 = #0099cc
 
 # magenta
-color5  = #7d534f
-color13 = #ebbbb5
+color5  = #0066ff
+color13 = #0099ff
 
 # cyan
-color6  = #9a413d
-color14 = #ffaaa0
+color6  = #669999
+color14 = #66cccc
 
 # white
-color7  = #c6c6c6
-color15 = #ffffff
-
-
-# MY THEME: Orange Delight #
-# [colors]
-
-# # special
-# foreground      = #919191
-# foreground_bold = #919191
-# cursor          = #919191
-# # 1e1e1e
-# background      = rgba(30, 30, 30, 0.8)
-
-# # black
-# color0  = #303030
-# color8  = #5e5e5e
-
-# # red
-# color1  = #ef762a
-# color9  = #eb9458
-
-# # green
-# color2  = #e07943
-# color10 = #e49a61
-
-# # yellow
-# color3  = #f97e37
-# color11 = #e1854b
-
-# # blue
-# color4  = #a96837
-# color12 = #f19854
-
-# # magenta
-# color5  = #d5854c
-# color13 = #f9bb93
-
-# # cyan
-# color6  = #cc7041
-# color14 = #ffa56b
-
-# # white
-# color7  = #c6c6c6
-# color15 = #ffffff
-
-# MY THEME: Pink n blue #
-# [colors]
-
-# # special
-# foreground      = #919191
-# foreground_bold = #919191
-# cursor          = #919191
-# background      = rgba(26, 26, 26, 0.95)
-
-# # black
-# color0  = #303030
-# color8  = #5e5e5e
-
-# # red
-# color1  = #142dfd
-# color9  = #ff81d4
-
-# # green
-# color2  = #3e4dcd
-# color10 = #ff95e8
-
-# # yellow
-# color3  = #4557fa
-# color11 = #ed8bff
-
-# # blue
-# color4  = #5b64ae
-# color12 = #feaaf6
-
-# # magenta
-# color5  = #3e4794
-# color13 = #ebb5dd
-
-# # cyan
-# color6  = #293494
-# color14 = #ef54d2
-
-# # white
-# color7  = #c6c6c6
-# color15 = #c9c9c9
+color7  = #99cccc
+color15 = #ccffff
 
 
 [hints]

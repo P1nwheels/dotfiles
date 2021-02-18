@@ -18,13 +18,10 @@
 
 [colors]
 ; Not nord theme ============
-background = #1e1e1e
-#303030
-background-alt = #ff8781
-#e93580
-foreground = #c10023
-#eb71a4
-foreground-alt = #ff8781
+background = #333333
+background-alt = #454545
+foreground = #00ccff
+foreground-alt = #6699ff
 alert = #ffffff
 ; volume-min = #a3be8c
 ; volume-med = #ebcb8b
@@ -47,8 +44,7 @@ line-size = 0
 line-color = #f00
 
 border-size = 3
-#9593f4
-border-color = #c10023
+border-color = #00ccff
 
 padding-left = 3
 padding-right = 6
@@ -107,13 +103,13 @@ label-empty-padding = 2
 
 [module/date]
 type = internal/date
-interval = 1
+interval = 60
 
-date = "%B %d, %Y"
-date-alt = " %m-%d-%Y"
+date = "%A, %b %d"
+date-alt = "%B %d, %Y"
 
-time = %H:%M
-time-alt = %H:%M:%S
+time = %I:%M %p
+time-alt = %H:%M
 
 format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
