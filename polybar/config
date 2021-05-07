@@ -20,8 +20,8 @@
 ; Not nord theme ============
 background = #333333
 background-alt = #454545
-foreground = #00ccff
-foreground-alt = #6699ff
+foreground = #b8bb26
+foreground-alt = #83a598
 alert = #ffffff
 ; volume-min = #a3be8c
 ; volume-med = #ebcb8b
@@ -44,7 +44,7 @@ line-size = 0
 line-color = #f00
 
 border-size = 3
-border-color = #00ccff
+border-color = #75d588
 
 padding-left = 3
 padding-right = 6
@@ -134,8 +134,8 @@ menu-0-0 = Github
 menu-0-0-exec = firefox https://github.com && bspc desktop -f ^1
 menu-0-1 = Youtube
 menu-0-1-exec = firefox https://youtube.com && bspc desktop -f ^1
-menu-0-2 = Unixporn
-menu-0-2-exec = firefox https://reddit.com/r/unixporn && bspc desktop -f ^1
+menu-0-2 = Twitch
+menu-0-2-exec = firefox https://twitch.tv && bspc desktop -f ^1
 
 label-open = Frequented pages
 label-close = (Close this)

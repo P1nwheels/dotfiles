@@ -159,46 +159,89 @@ scrollback_lines = 10000
 
 # Visiblue
 
+# [colors]
+
+# # special
+# foreground      = #666699
+# foreground_bold = #666699
+# cursor          = #666699
+# # #333333
+# background      = rgba(33, 33, 33, 0.9)
+
+# # black
+# color0  = #5454ff
+# color8  = #8484ff
+
+# # red
+# color1  = #6666cc
+# color9  = #9999ff
+
+# # green
+# color2  = #0099cc
+# color10 = #00ccff
+
+# # yellow
+# color3  = #3366cc
+# color11 = #6699ff
+
+# # blue
+# color4  = #006699
+# color12 = #0099cc
+
+# # magenta
+# color5  = #0066ff
+# color13 = #0099ff
+
+# # cyan
+# color6  = #669999
+# color14 = #66cccc
+
+# # white
+# color7  = #99cccc
+# color15 = #ccffff
+
+# GRUVBOX
+
 [colors]
 
 # special
-foreground      = #666699
-foreground_bold = #666699
-cursor          = #666699
-# #333333
-background      = rgba(33, 33, 33, 0.9)
+foreground      = #ebdbb2
+foreground_bold = #ebdbb2
+cursor          = #ebdbb2
+background      = rgba(28, 28, 28, 0.9)
 
 # black
-color0  = #5454ff
-color8  = #8484ff
+color0  = #282828
+color8  = #928374
 
 # red
-color1  = #6666cc
-color9  = #9999ff
+color1  = #cc241d
+color9  = #fb4934
 
 # green
-color2  = #0099cc
-color10 = #00ccff
+color2  = #98971a
+color10 = #b8bb26
 
 # yellow
-color3  = #3366cc
-color11 = #6699ff
+color3  = #d79921
+color11 = #fabd2f
 
 # blue
-color4  = #006699
-color12 = #0099cc
+color4  = #458588
+color12 = #83a598
 
 # magenta
-color5  = #0066ff
-color13 = #0099ff
+color5  = #b16286
+color13 = #d3869b
 
 # cyan
-color6  = #669999
-color14 = #66cccc
+color6  = #689d68
+color14 = #8ec07c
 
 # white
-color7  = #99cccc
-color15 = #ccffff
+color7  = #a89984
+color15 = #ebdbb2
+
 
 
 [hints]

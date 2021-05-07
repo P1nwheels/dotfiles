@@ -6,7 +6,7 @@ Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'sheerun/vim-polyglot'
 Plug 'chrisbra/colorizer'
 Plug 'arcticicestudio/nord-vim'
-" Plug 'Kjwon15/vim-transparent'
+Plug 'Kjwon15/vim-transparent'
 Plug 'rainglow/vim'
 Plug 'kevinhwang91/rnvimr'
 
@@ -16,8 +16,8 @@ call plug#end()
 
 set termguicolors
 
-colorscheme codecourse
-" set background=dark
+colorscheme gruvbox
+set background=dark
 
 syntax on
 set nocompatible

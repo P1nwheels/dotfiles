@@ -23,31 +23,31 @@ configuration {
 }
 
 * {
-	rord0: #303030;
-	rord1: #c10023;
-	rord2: #a83334;
-	rord3: #b51d2c;
+	rord0: #282828;
+	rord1: #cc241d;
+	rord2: #98971a;
+	rord3: #d79921;
 
-	rord4: #8c4b46;
-	rord5: #7d534f;
-	rord6: #9a413d;
+	rord4: #458688;
+	rord5: #b16286;
+	rord6: #689d68;
 
-	rord7: #c6c6c6;
-	rord8: #5e5e5e;
-	rord9: #ff8781;
-	rord10: #a83334;
-	rord11: #ff948b;
+	rord7: #a89984;
+	rord8: #928374;
+	rord9: #fb4934;
+	rord10: #b8bb26;
+	rord11: #fabd2f;
 
-	rord12: #feb2aa;
-	rord13: #ebbbb5;
-	rord14: #ffaaa0;
-	rord15: #ffffff;
+	rord12: #83a598;
+	rord13: #d3869b;
+	rord14: #8ec07c;
+	rord15: #ebdbb2;
 
-    foreground:  @rord9;
+    foreground:  @rord3;
     backlight:   #ff948b;
     background-color:  transparent;
     
-    highlight:     underline bold #b51d2c;
+    highlight:     underline bold #b8bb26;
 
     transparent: rgba(46,52,64,0);
 }
@@ -113,7 +113,7 @@ element {
     border-radius: 4px;
     background-color: transparent;
     color: @foreground;
-    text-color: rgb(239, 89, 81);
+    text-color: rgb(184, 187, 38);
 }
 
 element selected.normal {
