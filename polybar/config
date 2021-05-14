@@ -103,7 +103,7 @@ label-empty-padding = 2
 
 [module/date]
 type = internal/date
-interval = 60
+interval = 10
 
 date = "%A, %b %d"
 date-alt = "%B %d, %Y"
