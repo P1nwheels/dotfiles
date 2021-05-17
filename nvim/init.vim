@@ -34,13 +34,12 @@ set smartcase
 set noswapfile
 set nobackup
 set incsearch
-set scrolloff=10
+set scrolloff=15
 
 " All my remaps baby
 
 inoremap kj <ESC>
-nnoremap <C-h> :ColorHighlight<CR>
-nnoremap<C-,> :ColorClear<CR>
+nnoremap <C-i> :ColorHighlight<CR>
 
 " For rnvimr
 let g:rnvimr_ex_enable = 1
